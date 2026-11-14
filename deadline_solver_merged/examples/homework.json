@@ -1,0 +1,19 @@
+{
+  "start_date": "2026-11-14",
+  "daily_free_time": {
+    "monday": 2,
+    "tuesday": 2,
+    "wednesday": 2,
+    "thursday": 2,
+    "friday": 2,
+    "saturday": 3,
+    "sunday": 3
+  },
+  "buffer_ratio": 0.1,
+  "max_extra_hours": 3,
+  "assignments": [
+    {"id":"CS", "name":"Python Project", "deadline":"2026-11-17", "estimated_hours":8, "priority":1},
+    {"id":"MATH", "name":"Math Revision", "deadline":"2026-11-19", "estimated_hours":7, "priority":2},
+    {"id":"REPORT", "name":"Project Report", "deadline":"2026-11-20", "estimated_hours":6, "priority":1, "depends_on":["CS"]}
+  ]
+}

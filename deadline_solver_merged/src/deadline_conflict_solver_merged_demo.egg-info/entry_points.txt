@@ -1,0 +1,2 @@
+[console_scripts]
+deadline-solver = deadline_conflict_solver.cli:main
